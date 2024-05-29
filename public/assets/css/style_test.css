@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box; /*pour garder la meme taille*/
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    background-color:#2C3E50;
+    color: #2980b7;
+    height: 150px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header>a{
+   width: 30%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   letter-spacing: -2px;
+   text-align: center;
+   text-decoration: none;
+   color: #2980b7;
+}
+
+.header_logo{
+    height: 120px;
+    width: 30%;
+    margin: 0 0 15px 15px;
+}
+
+#socials{
+    width: 30%;
+    display: block;
+    text-align: right;
+    margin-right: 20px ;
+}
+
+nav{
+    background-color: #2980B9 ;
+    border-bottom:#6ACAFC 4px solid ;
+}
+
+.link_list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.link_list>li{
+    list-style-type: none;
+    background-color: #6ACAFC;
+    border: white 1px solid;
+    border-radius: 20% 0;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+nav a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+main{
+    height: 700px;
+}
+
+form{
+    background-color: #DFDEE0;
+    width: 80%;
+    margin: auto ;
+    height: 700px;
+}
+
+#formh1{
+    height: 25%;
+    padding: 20px;
+}
+
+.form{
+    background-color: #2C3E50 ;
+    width: 50%;
+    margin: -20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    height: 75%;
+}
+.form>div div{
+    padding: 15px 0 0 0;
+}
+
+main label{
+    display: block;
+    width: 50%;
+}
+
+.class1 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.class2 input{
+    margin: 10px 0 0 35px
+}
+
+.class3 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color:#2980B9 ;
+    text-align: end;
+}
+
+@media (max-width:1399px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width:960px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+    header{
+        width: 100%;
+    }
+    header h1{
+        font-size: 100% ;
+    }
+    header img{
+        height: 80%;
+    }
+}
