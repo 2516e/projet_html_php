@@ -66,16 +66,17 @@ nav a{
     text-decoration: none;
 }
 
-main{
-    height: 700px;
-}
 
-form{
+                    /* Main */
+main{
     background-color: #DFDEE0;
-    width: 80%;
+    width: 50%;
     margin: auto ;
     height: 700px;
 }
+
+
+                /* ---> Main : Formulaire */
 
 #formh1{
     height: 25%;
@@ -114,10 +115,40 @@ main label{
     flex-wrap: wrap;
 }
 
+
+                /* ---> Main : Position */
+
+#posh1{
+    height: 25%;
+    padding: 20px;
+}
+#posp , #absp{
+    margin-left: 40px;
+}
+.centerblock{
+    height: 200px;
+    width : 500px;
+    background-color:lightseagreen;
+    margin: auto;
+}
+
+.abs{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+                    /* Footer */
+
 footer{
     background-color:#2980B9 ;
     text-align: end;
 }
+
+
+                    /* Media queries */
 
 @media (max-width:1399px) {
     .container{
@@ -142,3 +173,4 @@ footer{
         height: 80%;
     }
 }
+
