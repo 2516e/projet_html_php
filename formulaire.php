@@ -1,12 +1,12 @@
 <?php require __DIR__ . "/public/header.html.php"?>
 
 <main>
-    <div class="formcontainer">
-        <form action="">
-            <div id="formh1">
+    <div class="content">
+        <section>
+            <div id="h1">
                 <h1>Formulaire</h1>
             </div>
-            <section class="form">
+            <form action="">
                 <div class="class1">
                     <div>
                         <label for="nickname" required>Pseudo*</label>
@@ -53,8 +53,8 @@
                     <input type="submit" value="Envoyer">
                     <input type="reset" value="Annuler">
                     </div>
-            </section>
-        </form>
+            </form>
+        </section>
     </div>
 </main>
 
