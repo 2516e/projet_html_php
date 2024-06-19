@@ -60,8 +60,12 @@ nav{
     border-radius: 20% 0;
     margin: 10px;
     padding: 5px;
+    transition: 0.5s;
 }
 
+.link_list>li:hover{
+    background-color: purple;
+}
 
 nav a{
     color: white;
@@ -110,7 +114,6 @@ main label{
 
 .class1 div{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .class2 input{

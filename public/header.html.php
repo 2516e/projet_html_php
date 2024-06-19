@@ -11,11 +11,11 @@
     <div class="container">
         <header>
         <div class="header_logo">
-            <a href="index.php">
+            <a href="./">
                 <img src="public/assets/img/logo.png" alt="logog">
             </a>
         </div>
-        <a href="index.php"><h1>Mon Premier site en HTML/CSS</h1></a>
+        <a href="./"><h1>Mon Premier site en HTML/CSS</h1></a>
         <div id="socials">
             <a href="https://www.instagram.com/eye.on.palestine/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #2980b7;"></i></a>
             <br>
